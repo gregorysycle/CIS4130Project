@@ -1,12 +1,12 @@
-# Steam Reviews Predictor Project
+#Steam Reviews Predictor Project
 
 This repository contains the files and code for analyzing and predicting whether a Steam review will recommend a game, using a dataset of Steam reviews. The project explores exploratory data analysis (EDA), feature engineering, modeling, and data visualization.
 
 ## Project Files
-- **`cleaning.ipynb`**: Contains the code for cleaning the dataset. Includes handling missing values, standardizing column names, and preparing the data for feature engineering.
-- **`feature_eng.ipynb`**: Includes the feature engineering process, such as encoding categorical variables, scaling continuous variables, and assembling features for machine learning models.
-- **`steam_features_treatment.xlsx`**: A detailed table that outlines each column in the dataset, its data type, and the transformations applied during feature engineering.
-- **`visualizations.ipynb`**: Code for generating various visualizations, such as heatmaps, bar charts, ROC curves, and precision-recall curves, to illustrate model performance and dataset characteristics.
+- `cleaning.ipynb`: Contains the code for cleaning the dataset. Includes handling missing values, standardizing column names, and preparing the data for feature engineering.
+- `feature_eng.ipynb`: Includes the feature engineering process, such as encoding categorical variables, scaling continuous variables, and assembling features for machine learning models.
+- `steam_features_treatment.xlsx`: A detailed table that outlines each column in the dataset, its data type, and the transformations applied during feature engineering.
+- `visualizations.ipynb`: Code for generating various visualizations, such as heatmaps, bar charts, ROC curves, and precision-recall curves, to illustrate model performance and dataset characteristics.
 
 ## Overview
 The project uses PySpark on a Google Cloud Dataproc cluster for distributed data processing and machine learning. Logistic regression was used to predict whether a review recommends a game. The dataset was preprocessed to handle missing values, imbalanced classes, and highly correlated features. Visualizations were created to explore feature relationships, evaluate class imbalance, and assess model performance.
